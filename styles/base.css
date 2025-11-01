@@ -74,3 +74,7 @@ main img {
     padding: 1px;
     box-shadow: 3px 5px 10px #a1c8ff;
 }
+
+h1 {
+    width: 100%;
+}
