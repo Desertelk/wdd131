@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header span {
+    display: block;
+}
+
+nav {
+    padding: 1rem;
+    background-color: #a1c8ff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: right;
+}
+
+nav a {
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #242424;
+}
+
+nav h1 {
+    margin-right: auto;
+}
+
+nav a:hover {
+    text-decoration: overline;
+}
+
+body {
+    font-family: 'Tinos';
+    background-color: #f0f0f0;
+}
+
+footer {
+    background-color: #193a68fc;
+    color: #ccc;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
