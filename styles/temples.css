@@ -9,8 +9,10 @@ header span {
 }
 
 nav {
+    
     padding: 1rem;
     background-color: #a1c8ff;
+    width: 100%;
 }
 
 nav a {
@@ -59,7 +61,7 @@ main div {
 
 }
 
-main h1 {
+main h2 {
     padding: 1em;
 }
 

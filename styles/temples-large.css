@@ -28,6 +28,10 @@
 
     }
 
+    nav {
+        display: inline-flex;
+    }
+
     nav h1 {
         font-size: 2.5rem;
     }
