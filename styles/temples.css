@@ -11,9 +11,6 @@ header span {
 nav {
     padding: 1rem;
     background-color: #a1c8ff;
-    display: flex;
-    justify-content: flex-end;
-    align-items: right;
 }
 
 nav a {
@@ -26,6 +23,7 @@ nav a {
 
 nav h1 {
     margin-right: auto;
+    font-size: 1.5rem;
 }
 
 nav a:hover {
@@ -43,4 +41,62 @@ footer {
     padding: 10px;
     text-align: center;
     margin-top: auto;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+main {
+    max-width: 900px;
+    text-align: center;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 15px;
+
+}
+
+main h1 {
+    padding: 1em;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+#menu {
+    display: block;
+    margin-left: auto;
+}
+
+#menu::before {
+	content: "☰";
+    display: block;
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.navigation a{
+    display: none;
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.open a {
+    display: block;
 }
