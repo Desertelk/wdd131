@@ -9,7 +9,7 @@ header span {
 }
 
 nav {
-    
+    display: block;
     padding: 1rem;
     background-color: #a1c8ff;
     width: 100%;
