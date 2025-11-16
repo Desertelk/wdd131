@@ -19,7 +19,7 @@
 
     .overlay {
         position: absolute;
-        width: 28%;
+        width: 30%;
         opacity: 80%;
         padding: 20px;
         border: 2px solid var(--accent-color);
