@@ -1,0 +1,49 @@
+@media (min-width: 1000px) {
+
+    main{
+        max-width: 1400px;
+    }
+
+    .hero {
+        position: relative;
+        width: 100%;
+        max-width: 1400px;
+        margin: 0 auto;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .overlay {
+        position: absolute;
+        width: 28%;
+        opacity: 80%;
+        padding: 20px;
+        border: 2px solid var(--accent-color);
+        box-shadow: 0 4px 8px var(--text-color);
+    }
+
+    .data-container {
+        top: 20px;
+        left: 30px;
+    }
+
+    .weather-container {
+        bottom: 30px;
+        right: 30px;
+    }
+
+    .weather-container h2::after {
+        font-size: 1.2em;
+        margin-left: 10px;
+        color: var(--accent-color)
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

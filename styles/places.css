@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #d91023;
+    --secondary-color: white;
+    --accent-color: #FFC72C;
+    --background-color: #f0f0f0;
+    --text-color: #333;
+}
+
+body {
+    font-family: 'Tinos';
+    background-color: var(--background-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    min-height: 100vh;
+}
+
+main {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    font-size: 2rem;
+    background-color: var(--secondary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+header h1 {
+    margin: 0;
+    color: var(--primary-color)
+}
+
+h2 {
+    margin: 10px 0;
+    padding: 5px;
+    border-bottom: 2px solid var(--primary-color);
+    font-size: 1.5rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.data-container {
+    border-bottom: 1px solid var(--accent-color);
+    padding: 15px;
+    background-color: var(--secondary-color);
+    box-shadow: 0 2px 5px var(--text-color);
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 1px dashed var(--text-color);
+}
+
+.data:last-child {
+    border-bottom: none;
+}
+
+.data .label {
+    font-weight: 700;
+}
+
+.data .value {
+    color: var(--text-color)
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.weather-container {
+    border-bottom: 1px solid var(--accent-color);
+    padding: 15px;
+    background-color: var(--secondary-color);
+    box-shadow: 0 2px 5px var(--text-color);
+}
+
+.weather-icon {
+    width: 80px;
+    height: 80px;
+    margin: 10px auto;
+}
+
+footer {
+    width: 100%;
+    padding: 10px 0;
+    margin-top: auto;
+    border-top: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--text-color)
+}
+

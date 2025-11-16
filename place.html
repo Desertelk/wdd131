@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Page</title>
+    <meta name="description" content="country information page">
+    <meta name="author" content="Caden Watts">
+    <link rel="stylesheet" href="styles/places.css">
+    <link rel="stylesheet" href="styles/places-large.css">
+    <script src="scripts/places.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>
+            <span class="flag-red"></span>
+            <span class="flag-white">Peru</span>
+            <span class="flag-red"></span>
+        </h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/machu-picchu-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/machu-picchu-med.webp" media="(min-width: 500px)">
+                <img src="images/machu-picchu-small.webp" alt="Machu Picchu" width="500" height="250">
+            </picture>
+            <section class="data-container overlay">
+                <h2>Data</h2>
+    
+                <div class="data">
+                    <span class="label">Area: </span>
+                    <span class="value">1,258,000 square kilometers</span>
+                </div>
+                <div class="data">
+                    <span class="label">Population:  </span>
+                    <span class="value">35,360,815</span>
+                </div>
+                <div class="data">
+                    <span class="label">Captial: </span>
+                    <span class="value">Lima</span>
+                </div>
+                <div class="data">
+                    <span class="label">Languages: </span>
+                    <span class="value">Spanish – Quechua – Aymara</span>
+                </div>
+                <div class="data">
+                    <span class="label">Currency: </span>
+                    <span class="value">Peruvian Sol</span>
+                </div>
+                <div class="data">
+                    <span class="label">Country Code: </span>
+                    <span class="value">+51</span>
+                </div>
+                <div class="data">
+                    <span class="label">Time Zone: </span>
+                    <span class="value">UTC-5</span>
+                </div>
+                <div class="data">
+                    <span class="label">Internet TLD: </span>
+                    <span class="value">.pe</span>
+                </div>
+            </section>
+            <section class="weather-container overlay">
+                <h2>Weather</h2>
+    
+                <div class="weather-icon">
+                    <img src="images/weather-icon.svg" alt="weather icon">
+                </div>
+                <div class="data">
+                    <span class="label">Temperature: </span>
+                    <span class="value">12 °C</span>
+                </div>
+                <div class="data">
+                    <span class="label">Conditions: </span>
+                    <span class="value">Cloudy</span>
+                </div>
+                <div class="data">
+                    <span class="label">Wind: </span>
+                    <span class="value">10</span>
+                </div>
+                <div class="data">
+                    <span class="label">Wind Chill:</span>
+                    <span class="value"></span>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>©️<span id="currentYear"></span> Caden Watts Lima, Peru</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
