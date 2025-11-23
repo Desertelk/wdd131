@@ -101,3 +101,25 @@ main img {
 .open a {
     display: block;
 }
+
+#temple-cards {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+}
+
+.temple-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 2px 7px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.temple-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}

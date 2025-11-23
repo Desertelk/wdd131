@@ -1,0 +1,39 @@
+@media (min-width: 600px) {
+    #temple-cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 800px) {
+    #temple-cards {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    .navigation a {
+        display: block;
+
+    }
+
+    nav {
+        display: inline-flex;
+    }
+
+    nav h1 {
+        font-size: 2rem;
+    }
+}
+
