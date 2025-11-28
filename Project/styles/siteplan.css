@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header span {
+    display: block;
+}
+
+header img {
+    width: 250px;
+    height: auto;
+}
+
+nav {
+    display: block;
+    padding: 1rem;
+    background-color: #a1c8ff;
+    width: 100%;
+}
+
+nav a {
+    font-size: 1.2rem;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #242424;
+}
+
+nav h1 {
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    text-decoration: overline;
+}
+
+body {
+    font-family: 'Tinos';
+    background-color: #f0f0f0;
+}
+
+footer {
+    background-color: #193a68fc;
+    color: #ccc;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+main {
+    text-align: center;
+}
+
+main div {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 15px;
+
+}
+
+main h2 {
+    padding: 1em;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
+#menu {
+    display: block;
+    margin-left: auto;
+}
+
+#menu::before {
+	content: "☰";
+    display: block;
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	list-style: none;
+}
+
+.navigation a{
+    display: none;
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.open a {
+    display: block;
+}
+
+
+.swatch.lilac-primary {
+  background: #D5B6FF;
+  color: #222;
+}
+
+.swatch.brown-brand {
+  background: #6A4226;
+  color: #fff;
+}
+
+.swatch.beige-bg {
+  background: #FFF8EB;
+  color: #222;
+  border: 1px solid #e8dcc4;
+}
+
+.swatch.neutral {
+  background: #ddd;
+  color: #111;
+}

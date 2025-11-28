@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhalia's Bakery - Site Plan</title>
+    <meta name="author" content="Caden Watts">
+    <meta name="description" content="This is a site regarding Dhalia's Bakery where you can see several pictures of the pastries that they offer, sign up for a newsletter">
+    <link rel="stylesheet" href="styles/siteplan.css">
+    <link rel="stylesheet" href="styles/siteplan-large.css">
+    <script src="scripts/siteplan.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <img src="images/dhalia-logo.jpeg">
+            <h1 class="site-title">Dhalia's Bakery</h1>
+        </div>
+        <nav>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Newsletter Sign-up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="content">
+        <section>
+            <h2>Site Name</h2>
+            <p>Dhalia's Bakery - a small bakery showcasing pastries, seasonal menus, and a newsletter signup. My wife is the one who makes the pastries and we decided to name it after a puppy that we had adopted a couple of years ago.</p>
+            <p>Domain option: dhaliasbakery.com</p>
+        </section>
+        <section>
+            <h2>Site Purpose</h2>
+            <p>Provide a visual meu of pastries, share store hours and location, accept newsletter signup and display seasonal promotions.</p>
+            <ul>
+                <li>Showcase pastry photos and descriptions</li>
+                <li>Collect email and addresses for the newsletter</li>
+                <li>Provide hours, address, and contact info</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Scenarios</h2>
+            <ol>
+                <li>What are the different pastries that are offered -> There will be a photo album of the different pastries that are offered.</li>
+                <li>How can I find out about other promotional discounts later on? -> There will be a way to sign up for a newsletter to receive emails for other promotions.</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Color scheme</h2>
+            <ul class="colors">
+            <li><strong>Primary Lilac:</strong> 
+            <span class="swatch lilac-primary">#D5B6FF</span> — used for headings, accents, and decorative elements.
+            </li>
+
+            <li><strong>Brand Brown:</strong> 
+            <span class="swatch brown-brand">#6A4226</span> — used for outlines, icons, borders, and emphasis.
+            </li>
+
+            <li><strong>Soft Beige Background:</strong> 
+            <span class="swatch beige-bg">#FFF8EB</span> — used for background sections and soft panels.
+            </li>
+
+            <li><strong>Neutral Text:</strong> 
+            <span class="swatch neutral">#222222</span> — used for body text for readability.
+            </li>
+        </section>
+        <section>
+            <h2>Typography</h2>
+            <p>Fonts chosen (2):</p>
+            <ol>
+                <li>Montserrat — headings and navigation (used in this document for headings).</li>
+                 <li>Tinos — body text, paragraphs (good legibility for long text).</li>
+            </ol>
+            <p>Font Sizes: h1 2rem, h2 1.25rem, body 1rem (will just with responsive css).</p>
+        </section>
+        <!-- <div class="hero">
+            <picture>
+                <source srcset="images/chocolate-cake-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/chocolate-cake-med.webp" media="(min-width: 500px)">
+                <img src="images/chocolate-cake-small.webp" alt="Machu Picchu" width="500" height="250">
+            </picture> -->
+
+            <section id="wireframes" class="panel">
+      <h2>Wireframes</h2>
+      <p>Simple visual wireframes (mobile and desktop). These are schematic boxes — they represent layout only.</p>
+
+      <div class="wireframes">
+        <div class="wireframe mobile">
+          <h3>Mobile</h3>
+          <div class="frame">
+            <div class="box header">logo + nav (hamburger)</div>
+            <div class="box hero">hero image</div>
+            <div class="box features">featured pastries (card list)</div>
+            <div class="box newsletter">newsletter sign-up</div>
+            <div class="box footer">footer (contact + hours)</div>
+          </div>
+        </div>
+
+        <div class="wireframe desktop">
+          <h3>Desktop / Wide</h3>
+          <div class="frame">
+            <div class="box header">logo + top nav</div>
+            <div class="box hero">large hero (left) + promo (right)</div>
+            <div class="box grid">grid of pastry cards (3 columns)</div>
+            <div class="box newsletter">newsletter (wide form)</div>
+            <div class="box footer">footer with map, contact, socials</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+    <footer>
+        <p>©️<span id="currentYear"></span> Caden Watts Lima, Peru</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
