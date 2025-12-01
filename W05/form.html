@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="Caden Watts">
+    <meta name="description" content="This is a product review form that one can fill in to give their opinion about a product.">
+    <link rel="stylesheet" href="styles/forms.css">
+    <script src="scripts/forms.js" defer></script>
+</head>
+<body>
+    <h1>Product Review</h1>
+    
+    <form method="get" action="review.html">
+        <label for="productName">Chosen Pastry</label>
+        <select id="productName" name="productName" required>
+            <option value="" disable selected>Select a product ...</option>
+
+        </select>
+
+        <fieldset>
+            <legend>Overall Rating</legend>
+
+            <label for="rating1">
+                <input type="radio" id="rating1" name="rating" value="1" required>
+                1
+            </label>
+            <label for="rating2">
+                <input type="radio" id="rating2" name="rating" value="2" required>
+                2
+            </label>
+            <label for="rating3">
+                <input type="radio" id="rating3" name="rating" value="3" required>
+                3
+            </label>
+            <label for="rating4">
+                <input type="radio" id="rating4" name="rating" value="4" required>
+                4
+            </label>
+            <label for="rating5">
+                <input type="radio" id="rating5" name="rating" value="5" required>
+                5
+            </label>
+        </fieldset>
+
+        <label for="receiveDate">Date Received</label>
+        <input type="date" id="receiveDate" name="receiveDate" required>
+
+        <fieldset>
+            <legend>What did you like most about the pastries? (Check all that apply)</legend>
+
+            <label for="taste">
+                <input type="checkbox" id="taste" name="features" value="Taste">
+                Taste
+            </label><br>
+
+            <label for="texture">
+                <input type="checkbox" id="texture" name="features" value="Texture">
+                Texture
+            </label><br>
+
+            <label for="presentation">
+                <input type="checkbox" id="presentation" name="features" value="Presentation">
+                Presentation
+            </label><br>
+
+            <label for="service">
+                <input type="checkbox" id="service" name="features" value="Service">
+                Service
+            </label><br>
+        </fieldset>
+
+        <label for="writtenReview">Written Review (Optional)</label>
+        <textarea id="writtenReview" name="writtenReview"></textarea>
+
+        <label for="userName">Your Name (Optional)</label>
+        <input type="text" id="userName" name="userName">
+
+        <input type="submit" value="Post Review">
+    </form>
+    <footer>
+        <p>©️<span id="currentYear"></span> Caden Watts Lima, Peru</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
