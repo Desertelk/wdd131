@@ -1,39 +1,49 @@
 @media (min-width: 600px) {
-    #temple-cards {
+    .cards {
         grid-template-columns: 1fr 1fr;
     }
-}
 
-@media (min-width: 800px) {
-    #temple-cards {
-        grid-template-columns: 1fr 1fr 1fr;
+    .site-header {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
 
-    #menu {
+    .main-nav {
+        margin-top: 0;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #menu-toggle {
         display: none;
     }
 
-    .navigation {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
+    .nav-list a:hover {
+        background-color: transparent;
+        text-decoration: underline;
+        color: var(--beige);
     }
 
-    .navigation li {
-        display: block;
+}
+
+@media (min-width: 800px) {
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .navigation a {
-        display: block;
-
+    #menu-toggle {
+        display: none;
     }
 
-    nav {
-        display: inline-flex;
-    }
-
-    nav h1 {
-        font-size: 2rem;
+    .nav-list a:hover {
+        background-color: transparent;
+        text-decoration: underline;
+        color: var(--beige);
     }
 }
 

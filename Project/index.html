@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhalia's Bakery</title>
+    <meta name="author" content="Caden Watts">
+    <meta name="description" content="A webpage dedicated to explaing what pastries are offered by Dhalia's bakery, a homebased bakery that provides quality baked goods such as cookies, brownies, and cakes.">
+    <link rel="stylesheet" href="styles/siteplan.css">
+    <link rel="stylesheet" href="styles/siteplan-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Tinos:ital,wght@0,400;0,700&display=swap" rel="stylesheet">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body class="home">
+    <header class="site-header" role="banner">
+        <div class="brand-logo">
+            <img src="images/dhalia-logo.jpeg" alt="Dhalia's Bakery logo" class="logo">
+            <div>
+                <h1 class="site-title">Dhalia's Bakery</h1>
+                <p class="tag">Artisan pastries • Neighborhood warmth</p>
+            </div>
+        </div>
+        <nav class="main-nav" role="navigation">
+            <button id="menu-toggle"></button>
+            <ul id="primary-nav" class="nav-list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="review.html">Submit Review</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero panel">
+            <div class="hero-media">
+                <picture>
+                    <source srcset="images/chocolate-cake-large.webp" media="(min-width: 1000px)">
+                    <source srcset="images/chocolate-cake-med.webp" media="(min-width: 500px)">
+                    <img src="images/chocolate-cake-small.webp" alt="Chocolate cake" width="500" height="250">
+                </picture>
+            </div>
+            <div class="hero-content">
+                <h2 id="hero-heading">Fresh today, baked with love</h2>
+                <p>Seasonal pastries and classic favorites. Come by for warm cookies and full belly.</p>
+                <p><a class="cta" href="menu.html">See today's menu</a></p>
+            </div>
+        </section>
+        <section class="featured panel">
+            <h2 class="cards">Featured pastries</h2>
+            <div id="cards" class="menu-card featured">
+                <img src="images/chocolate-cake.jpeg" alt="Chocolate Cake">
+                <h3>Chocolate Cake</h3>
+                <p>Rich chocolate cake with fudge frosting.</p>
+            </div>
+        </section>
+        <section id="review-summary"></section>
+    </main>
+    <footer class="site-footer">
+        <p><a href="contact.html">Contact / Newsletter</a> • <a href="menu.html">Full Menu</a> • <a href="review.html">Leave a Review</a></p>
+        <div class="footer inner">
+            <p>©️<span id="currentYear"></span> Caden Watts Lima, Peru</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

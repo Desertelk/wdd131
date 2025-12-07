@@ -10,7 +10,7 @@ const products = [
     {id: "pas103", name: "Cinnamon Rolls", averagerateing: 4.9},
     {id: "pas104", name: "Cupcakes", averagerateing: 4.2},
     {id: "pas105", name: "Chocolate Chip Cookies", averagerateing: 3.9},
-    {id: "pas106", name: "Carrot Cake", averagerateing: 4.1},
+    {id: "pas106", name: "Brownies", averagerateing: 4.1},
     {id: "pas107", name: "Lemon Cake", averagerateing: 3.7},
 ];
 
